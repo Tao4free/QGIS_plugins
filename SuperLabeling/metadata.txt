@@ -10,7 +10,7 @@ email=hakufu.asano@gmail.com
 
 
 homepage=https://github.com/Tao4free/
-tracker=https://github.com/Tao4free/QGIS_plugins/tree/master/SuperLabeling
+tracker=https://github.com/Tao4free/QGIS_plugins
 repository=https://github.com/Tao4free/QGIS_plugins/tree/master/SuperLabeling
 
 icon=icon.png
