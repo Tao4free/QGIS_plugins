@@ -1,0 +1,22 @@
+[general]
+name=SuperLabeling
+description=Customize your labeling. Use your mouse to specify the location of the label with automatically feature selection. Quick to create a small number of labels. When you click the 'Start Edition', you can just use left click to select position of label and  implement the labeling process. Also, you can left double click to hide the label.
+about=Suitable for those who want to do exact labeling mannually and easierly. Some other similar plugins already exist, however they create a memory layer or other layer which make somehow difficult to integrate data. This plugin creates label data in the exited files and make the type operation at a minimum manner. You don't even need to type any thing, just mouse click can make help to your work.
+version=ver.1.2
+qgisMinimumVersion=2.0
+
+author=Tao Lu
+email=hakufu.asano@gmail.com
+
+
+homepage=https://github.com/Tao4free/
+tracker=https://github.com/Tao4free/QGIS_plugins/issues
+repository=https://github.com/Tao4free/QGIS_plugins/tree/master/SuperLabeling
+
+icon=icon.png
+
+tags=label
+
+experimental=True
+deprecated=False
+
