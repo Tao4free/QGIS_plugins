@@ -1,0 +1,34 @@
+[general]
+name=SuperLabeling
+qgisMinimumVersion=2.0
+description=Add your label by mouse click only.
+about=Some other similar plugins already exist, which create a memory layer or other layer making somehow difficult to integrate data. This plugin creates label data in the existed files in a minimum manner. You don't even need to type any thing, just mouse clicking can make be helpful to your work. After you click the 'Start Edition', you can just use left click to select position of label and implement the labeling process. Also, you can do left double clicking to hide the label.
+version=ver.1.3
+author=Tao Lu
+email=hakufu.asano@gmail.com
+
+changelog=1.3
+    - Change IdentifyMode from TopDownStopAtFirst to ActiveLayer, avoiding top layers' features are to be selected
+    - Clear the previous selection when you start new click to do labeling
+    - Add info when no feature is identified
+    - Fix: transform crs from mapCanvas crs to vector layer's crs when picking coordinates
+  1.2
+    - Combine right click and left click functions to simplify the operation
+    - Add the left double click function to hide label
+  1.1
+    - Subdivide some huge functions into small functions
+    - Reduce a button to simplify the operation
+    - Hide the fields that created by this plugin, avoiding miss-operation
+    - Unbound the 'label font size' with attribute table field and bound 'show label' so that you can hide the label
+    - Delete some duplicated codes
+
+homepage=https://github.com/Tao4free/
+tracker=https://github.com/Tao4free/QGIS_plugins/issues
+repository=https://github.com/Tao4free/QGIS_plugins/tree/master/SuperLabeling
+
+icon=icon.png
+tags=label
+
+experimental=False
+deprecated=False
+
